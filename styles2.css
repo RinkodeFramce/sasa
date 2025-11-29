@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Общий стиль для всех блоков */
+.box {
+    width: 200px;
+    height: 150px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Стиль для фактов */
+.fact {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0 20px 0;
+    padding: 10px;
+    background: #fff;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+    line-height: 1.4;
+}
+
+/* 1. Синий квадрат */
+.box1 {
+    background-color: #6c7ae0;
+}
+
+/* 2. Зелёный прямоугольник с текстом */
+.box2 {
+    background-color: #4cd964;
+    color: white;
+    font-size: 20px;
+}
+
+/* 3. Белый прямоугольник с синей рамкой */
+.box3 {
+    background-color: white;
+    border: 3px solid blue;
+}
+
+/* 4. Красная пунктирная рамка */
+.box4 {
+    background-color: white;
+    border: 3px dotted red;
+}
+
+/* 5. Оранжевая штриховая рамка */
+.box5 {
+    background-color: white;
+    border: 3px dashed orange;
+}
+
+/* 6. Двойная синяя рамка */
+.box6 {
+    background-color: white;
+    border: 3px double blue;
+}
+
+/* 7. Разные цвета сторон */
+.box7 {
+    background-color: white;
+    border-top: 3px solid blue;
+    border-left: 3px solid orange;
+    border-bottom: 3px solid red;
+    border-right: 3px solid green;
+}
+
+/* 8. Разные типы линий */
+.box8 {
+    background-color: white;
+    border-top: 3px solid blue;
+    border-left: 3px solid red;
+    border-bottom: 3px solid blue;
+    border-right: 3px dotted blue;
+}
+
+/* 9. Закруглённые углы */
+.box9 {
+    background-color: white;
+    border: 2px solid #4cd964;
+    border-radius: 20px;
+}
+
+/* 10. Круг */
+.box10 {
+    background-color: white;
+    border: 2px solid #4cd964;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* 11. Закруглённые нижние углы */
+.box11 {
+    background-color: white;
+    border: 2px solid #4cd964;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+/* Блок в конце */
+.end-block {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.end-block h1 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.end-block a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.end-block a:hover {
+    background: #0056b3;
+}
