@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Общий стиль для заголовков */
+h3 {
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+/* 1. Маркированный список */
+.list1 {
+    list-style-type: disc;
+}
+
+/* 2. Нумерованный список */
+.list2 {
+    list-style-type: circle;
+}
+
+/* 3. Список без маркеров */
+.list3 {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* 4. Греческие буквы */
+.list4 {
+    list-style-type: lower-greek;
+}
+
+/* 5. Внутренняя оранжевая рамка, внешняя синяя пунктирная */
+.box5 {
+    width: 200px;
+    height: 150px;
+    border: 3px solid orange;
+    outline: 3px dotted blue;
+    margin: 20px 0;
+}
+
+/* 6. Три вложенные рамки */
+.box6 {
+    width: 300px;
+    height: 250px;
+    border: 3px dotted blue;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.inner-box {
+    margin: 10px;
+}
+
+.inner1 {
+    border: 3px dashed green;
+    height: 180px;
+}
+
+.inner2 {
+    border: 3px solid red;
+    height: 120px;
+}
+
+/* 7. Два блока — один внутри другого */
+.box7 {
+    width: 200px;
+    height: 150px;
+    border: 3px solid orange;
+    margin: 20px 0;
+}
+
+.inner3 {
+    width: 100px;
+    height: 80px;
+    border: 3px dotted blue;
+    margin: 20px;
+}
+
+.box8 {
+    border: 3px solid red;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* 8. Зелёный и красный блоки */
+.box9 {
+    border: 3px solid green;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.box10 {
+    border: 3px solid red;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* 9. Блок с текстом */
+.box11 {
+    border: 3px solid red;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* 10. Абзацы как строчные элементы */
+.inline-p {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+/* 11. Ссылки как блочные элементы */
+.block-link {
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px 0;
+    border: 2px solid #3498db;
+    background: #ecf0f1;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.block-link:hover {
+    background: #3498db;
+    color: white;
+}
+
+/* Блок в конце */
+.end-block {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.end-block h1 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.end-block a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.end-block a:hover {
+    background: #0056b3;
+}
